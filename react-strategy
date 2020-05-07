@@ -1,0 +1,22 @@
+onComponentDidMount / useEffect{
+
+    axios.post(jswcookie)
+    .then( setState userState)
+}
+
+let reactComponent;
+if(state.userLoggedin){
+    reactComponent = <div>userlogged in stuff!</div>
+}
+else{
+    reactComponent = <div>not logged in</div>
+}
+
+render(){
+
+    {reactComponent}
+
+
+
+
+}
